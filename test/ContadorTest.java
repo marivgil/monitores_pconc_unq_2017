@@ -20,7 +20,7 @@ public class ContadorTest {
 
     @Test
     public void test(){
-        this.t2.run();
-        this.t1.run();
+        this.t2.start();
+        this.t1.start();
     }
 }
